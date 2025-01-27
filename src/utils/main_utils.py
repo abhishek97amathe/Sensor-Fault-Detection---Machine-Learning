@@ -18,6 +18,13 @@ class MainUtils:
     def __init__(self) -> None:
         pass
 
+    def load_model_config():
+        config_path = os.path.join("config","model.yaml")
+        if not os.path.exists(config_path):
+            raise FileNotFoundError(f"No such file or directory: '{config_path}'")
+        with open(config_path, 'r') as file:
+            config = yaml.safe_load(file)
+        return config
 
     def read_yaml_file(self, filename: str) -> dict:
         try:
