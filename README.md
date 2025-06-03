@@ -24,10 +24,6 @@ This project focuses on identifying faults in sensor data using machine learning
 
 ---
 
-If you want a more detailed introduction or a summary based on specific files (like README.md or documentation in the repository), let me know!
-
-This project aims to detect faults in sensor data using machine learning techniques. It is built in Python and is structured to facilitate experimentation, training, and deployment of models for automated fault detection in sensor-based systems.
-
 ## 🗂️ Repository Structure
 
 - `app.py`: Main application file to run the project.
